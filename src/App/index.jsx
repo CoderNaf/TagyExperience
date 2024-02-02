@@ -3,7 +3,9 @@ import { BrowserRouter, useRoutes } from 'react-router-dom'
 import { Home } from '../pages/Home'
 import { About } from '../pages/About'
 import { Experience } from '../pages/Experience'
+import { Plans } from '../pages/Plans'
 import { SingIn } from '../pages/SingIn'
+import { SingUp } from '../pages/SingUp'
 import { ResizableDiv } from '../components/DivPrincipal'
 // css
 import './App.css'
@@ -13,7 +15,10 @@ function Routes(){
     { path:"/", element:<Home/>},
     { path:"/About", element:<About/>},
     { path:"/SingIn", element:<SingIn/>},
-    { path:"/Experince", element:<Experience/>},
+    { path:"/Experience", element:<Experience/>},
+    { path:"/Plans", element:<Plans/>},
+    { path:"/SingIn", element:<SingIn/>},
+    { path:"/SingUp", element:<SingUp/>},
   ])
   return(routes)
 }

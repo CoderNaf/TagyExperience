@@ -1,5 +1,6 @@
 import { Routes } from "../../App"
 import { NavbarInitial } from "../NavbarInitial"
+import { NavbarNotification } from "../NavbarNotification"
 import {
     ResizableHandle,
     ResizablePanel,
@@ -19,6 +20,7 @@ function ResizableDiv() {
         </ResizablePanel>
         <ResizableHandle/>
         <ResizablePanel defaultSize={75}>
+          <NavbarNotification/>
           <div className="flex h-full items-center justify-center p-6">
             <Routes/>            
           </div>
