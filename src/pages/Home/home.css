@@ -1,0 +1,28 @@
+@keyframes cardAnimatedHome {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .animate-cardAnimatedHome {
+    animation: cardAnimatedHome 1s ease;
+  }
+
+/* En tu archivo de estilos CSS */
+@keyframes AnimateSocialMedia {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-AnimateSocialMedia {
+    animation: AnimateSocialMedia 1s ease-out;
+  }
