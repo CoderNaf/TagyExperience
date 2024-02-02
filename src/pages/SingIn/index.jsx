@@ -21,23 +21,23 @@ function SingIn(){
       <TabsContent value="account">
         <Card>
           <CardHeader>
-            <CardTitle>Account</CardTitle>
+            <CardTitle className=" font-ibm font-medium">Account</CardTitle>
             <CardDescription>
                 Ingresa con tu cuenta de tagy
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-2">
             <div className="space-y-1">
-              <Label htmlFor="username">Username</Label>
+              <Label htmlFor="username" className=" font-ibmMono">Username</Label>
               <Input id="username" placeholder="@Tageate"/>
             </div>
             <div className="space-y-1">
-              <Label htmlFor="password">password</Label>
+              <Label htmlFor="password" className=" font-ibmMono ">password</Label>
               <Input id="password" type="password" placeholder="*********"  />
             </div>
           </CardContent>
           <CardFooter>
-            <Button>Sing In</Button>
+            <Button className="font-ibmMono">Sing In</Button>
           </CardFooter>
         </Card>
       </TabsContent>

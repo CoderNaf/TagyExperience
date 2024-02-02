@@ -10,6 +10,17 @@ import { ResizableDiv } from '../components/DivPrincipal'
 // css
 import './App.css'
 
+
+const users = [
+  {
+    id:"@codernaf",
+    Username : "Name",
+    sessionActive: false,
+    TipeAdmin:"Admin"
+
+  }
+]
+
 function Routes(){
   let routes = useRoutes([
     { path:"/", element:<Home/>},

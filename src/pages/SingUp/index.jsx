@@ -27,19 +27,27 @@ function SingUp(){
             </CardHeader>
             <CardContent className="space-y-2">
               <div className="space-y-1">
-                <Label htmlFor="username">Username</Label>
-                <Input id="username" placeholder="@Tageate"/>
+                <Label htmlFor="username" className="font-ibmMono">Name</Label>
+                <Input id="username" />
               </div>
               <div className="space-y-1">
-                <Label htmlFor="password">password</Label>
-                <Input id="password" type="password" placeholder="*********"  />
+                <Label htmlFor="username" className="font-ibmMono">Last Name</Label>
+                <Input id="username" placeholder=""/>
               </div>
               <div className="space-y-1">
-                <Label htmlFor="password">password</Label>
-                <Input id="password" type="Email" placeholder="Tagy@email.com"/>
+                <Label htmlFor="password" className="font-ibmMono">Username</Label>
+                <Input id="password" placeholder="@Tageame"  />
               </div>
               <div className="space-y-1">
-                <Label htmlFor="password">password</Label>
+                <Label htmlFor="password" className="font-ibmMono">Email</Label>
+                <Input id="password" type="Email" placeholder="Tagy@email.comCel Phone"  />
+              </div>
+              <div className="space-y-1">
+                <Label htmlFor="password" className="font-ibmMono">password</Label>
+                <Input id="password" type="Email" placeholder="*******"/>
+              </div>
+              <div className="space-y-1">
+                <Label htmlFor="password" className="font-ibmMono">celphone</Label>
                 <Input id="password" type="number" placeholder="Cel Phone"  />
               </div>
             </CardContent>
