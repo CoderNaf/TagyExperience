@@ -16,7 +16,7 @@ import {
 
 function SingUp(){
     return (
-        <Tabs defaultValue="account" className="w-[400px]">
+        <Tabs defaultValue="account" className="w-[420px] pb-7">
         <TabsContent value="account">
           <Card>
             <CardHeader>
@@ -27,7 +27,7 @@ function SingUp(){
             </CardHeader>
             <CardContent className="space-y-2">
               <div className="space-y-1">
-                <Label htmlFor="username" className="font-ibmMono">Name</Label>
+                <Label htmlFor="username" className="font-ibmMono">First Name</Label>
                 <Input id="username" />
               </div>
               <div className="space-y-1">
@@ -52,7 +52,7 @@ function SingUp(){
               </div>
             </CardContent>
             <CardFooter>
-              <Button>Sing Up</Button>
+              <Button className="hover:bg-[#818FB4]">Sing Up</Button>
             </CardFooter>
           </Card>
         </TabsContent>

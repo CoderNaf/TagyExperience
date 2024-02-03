@@ -17,7 +17,7 @@ import {
 
 function SingIn(){
     return(
-        <Tabs defaultValue="account" className="w-[400px]">
+        <Tabs defaultValue="account" className="w-[420px]">
       <TabsContent value="account">
         <Card>
           <CardHeader>
@@ -37,7 +37,7 @@ function SingIn(){
             </div>
           </CardContent>
           <CardFooter>
-            <Button className="font-ibmMono">Sing In</Button>
+            <Button className="font-ibmMono hover:bg-[#818FB4]">Sing In</Button>
           </CardFooter>
         </Card>
       </TabsContent>
